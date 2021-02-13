@@ -1,4 +1,4 @@
 module.exports = {
   auth: require('./auth'),
-  // sessions: require('./sessions'),
+  sessions: require('./sessions'),
 }

@@ -1,4 +1,4 @@
-// const db = require('../models');
+const db = require('../models');
 
 const create = async (req, res) => {
   try {

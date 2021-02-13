@@ -17,11 +17,11 @@ app.use('/api/v1/auth', routes.auth);
 
 
 // TODO so help me god I will understand you, websockets
-app.ws('/', (ws, req) => {
-  ws.on('message', msg => {
-    console.log(msg);
-  });
-  console.log('connected to socket');
-})
+// app.ws('/', (ws, req) => {
+//   ws.on('message', msg => {
+//     console.log(msg);
+//   });
+//   console.log('connected to socket');
+// })
 
 app.listen(PORT, () => console.log(`Server is listening for requests at port ${PORT}`));
